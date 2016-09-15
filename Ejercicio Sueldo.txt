@@ -1,0 +1,24 @@
+#include<stdio.h>
+main(){
+	int venta1,venta2,venta3,venta4,venta5,sumav=0,sueldo=128000;
+	float por=0,tot=0;
+	printf("Ingrese Venta Numero 1:");
+	scanf("%i",&venta1);
+	printf("Ingrese Venta Numero 2:");
+	scanf("%i",&venta2);
+	printf("Ingrese Venta Numero 3:");
+	scanf("%i",&venta3);
+	printf("Ingrese Venta Numero 4:");
+	scanf("%i",&venta4);
+	printf("Ingrese Venta Numero 5:");
+	scanf("%i",&venta5);
+	sumav = venta1+venta2+venta3+venta4+venta5;
+	printf("\nLa suma total es %i",sumav);
+
+	por = sumav * 0.12;
+
+	printf("\nEl porse %.2f",por);
+	tot= sueldo+por;
+	printf("\nEl sueldo total es %.2f",tot);
+	
+}
